@@ -1,6 +1,6 @@
 # MTUSep24DSC
 # We love finding a hidden gem of Lab 1 within a folder for file handling - Questions to be answered and probably saved in LaurasLabWork Folder 
-# :)
+# I updated the filename string as it was causing errors since my destination was different to yours
 
 # Making an attempt with Lab 2 - Java Collections framework
 #   Got the absolute path for the hamlet.txt file and updated it in file handling.

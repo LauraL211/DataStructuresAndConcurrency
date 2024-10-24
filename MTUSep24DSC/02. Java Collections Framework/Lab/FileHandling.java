@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class FileHandling {
     public static void main(String[] args) {
         String fileName = "C:\\Users\\t00223553\\IdeaProjects\\MTUSep24DSC\\02. Java Collections Framework\\Lab\\hamlet.txt";
-
+    //Updated the file name as it was causing errors
         try {
             Scanner in = new Scanner(new File(fileName));
             int lineNumber = 1;
