@@ -1,10 +1,4 @@
 
-2. Insert the names given above in Q1 in a set. Use the two different Set implementations – HashSet and TreeSet. Try inserting the same name twice. Note that duplicates are not allowed.
-Use an iterator to display the names in the sets.
-What is the output for
-1. HashSet implementation?
-2.TreeSet implementation?
-What do you notice about the output?
 
 3. Write a program that reads text from a file and breaks it up into individual words.
 See the source code “filehandling.java” for code to read from a text file, hamlet.txt on the desktop, and break the text into words.
