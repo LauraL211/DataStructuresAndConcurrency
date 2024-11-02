@@ -1,0 +1,301 @@
+1) The ArrayList class implements the ____.
+    c) List interface
+
+2) A list is a collection that ____.
+a) should be used when you need to remember the order of elements in the collection.
+
+3) A stack is a collection that ____.
+a) remembers the order of elements, and allows elements to be added and removed only at one
+end.
+
+4) A queue is a collection that ____.
+d) remembers the order of elements and allows elements to be inserted only at one end and
+removed only at the other end.
+
+5) A collection without an intrinsic order is called a ____.
+c) set
+
+6) A collection that allows items to be added only at one end and removed only at the other end
+is called a ____.
+d) queue
+Test Bank Questions Chapter 15 © John Wiley & Sons, Inc. All rights reserved. 2
+
+7) A collection that remembers the order of items, and allows items to be added and removed
+only at one end is called a ____.
+b) stack
+
+8) A collection that allows speedy insertion and removal of already-located elements in the
+middle of it is called a ____.
+a) linked list
+
+9) Which data structure would best be used for keeping track of a growing set of groceries to be
+purchased at the food market?
+c) list
+
+10) What is included in a linked list node?
+I a reference to its neighboring nodes
+II an array reference
+III a data element
+d) I and III
+
+11) Which of the following statements about linked lists is correct?
+a) Once you have located the correct position, adding elements in the middle of a linked list is
+inefficient.
+Test Bank Questions Chapter 15 © John Wiley & Sons, Inc. All rights reserved. 3
+
+12) We might choose to use a linked list over an array list when we will not require frequent
+____.
+I random access
+II inserting new elements
+III removing of elements
+a) I
+
+13) Which nodes need to be updated when we insert a new node to become the fourth node from
+the beginning of a doubly-linked list?
+b) The current third and fourth nodes.
+
+14) A binary search requires ____ access.
+b) random
+
+15) A linear search only requires ____ access.
+a) sequential
+
+16) Rather than storing values in an array, a linked list uses a sequence of ____.
+b) nodes
+
+18) What type of access does a LinkedList provide for its elements?
+a) sequential
+
+19) Consider the following code snippet:
+LinkedList<String> words = new LinkedList<String>();
+words.addLast("abc");
+words.addLast("def");
+words.addLast("ghi");
+System.out.print(words.removeLast());
+System.out.print(words.removeFirst());
+System.out.print(words.removeLast());
+What will this code print when it is executed?
+b) ghiabcdef
+
+20) Consider the following code snippet:
+LinkedList<String> words = new LinkedList<String>();
+words.addFirst("abc");
+words.addLast("def");
+words.addFirst("ghi");
+System.out.print(words.removeLast());
+System.out.print(words.removeFirst());
+System.out.print(words.removeLast());
+What will this code print when it is executed?
+d) defghiabc
+
+21) The term ____ is used in computer science to describe an access pattern in which the
+elements are accessed in arbitrary order.
+b) random access
+
+22) Which Java package contains the LinkedList class?
+b) java.util
+
+24) Assume you have created a linked list named myList that currently holds some number of
+String objects. Which of the following statements correctly adds a new element to the
+beginning of myList?
+a) myList.addFirst("Harry");
+
+25) Assume you have created a linked list name myList that currently holds some number of
+String objects. Which of the following statements correctly removes an element from the end of
+myList?
+b) myList.removeLast();
+
+6) A(n) ____ is a data structure used for collecting a sequence of objects that allows efficient
+addition and removal of already-located elements in the middle of the sequence.
+c) linked list
+
+27) What is the meaning of the type parameter E, in the LinkedList<E> code fragment?
+a) The elements of the linked list are of class E.
+
+28) Which method is NOT part of the ListIterator interface?
+a) delete
+
+29) Consider the code snippet shown below. Assume that employeeNames is an instance of type
+LinkedList<String>.
+for (String name : employeeNames)
+Test Bank Questions Chapter 15 © John Wiley & Sons, Inc. All rights reserved. 6
+{
+// Do something with name here
+}
+Which element(s) of employeeNames does this loop process?
+b) all elements
+
+30) Which method is NOT part of the ListIterator generic class?
+b) hasMore
+
+33) Which of the following statements about the LinkedList class is correct?
+a) When you use the add method, the new element is inserted before the iterator, and the iterator
+position is advanced by one position.
+
+35) A linked list ____ encapsulates a position anywhere inside the linked list.
+d) iterator
+
+36) You use a(n) ____ to access elements inside a linked list.
+c) list iterator
+
+37) A linked list allows ____ access, but you need to ask the list for an iterator.
+a) sequential
+
+38) The nodes of a(n) ____ linked list class store two links: one to the next element and one to
+the previous one.
+c) doubly
+
+39) Assume you are using a doubly-linked list data structure with many nodes. What is the
+minimum number of node references that are required to be modified to remove a node from the
+middle of the list? Consider the neighboring nodes.
+b) 2
+
+40) In a linked list data structure, when does the reference to the first node need to be updated?
+I inserting into an empty list
+II deleting from a list with one node
+III deleting an inner node
+c) I and II
+
+41) Consider the following code snippet:
+LinkedList<String> myLList = new LinkedList<String>();
+myLList.add("Mary");
+myLList.add("John");
+myLList.add("Sue");
+ListIterator<String> iterator = myLList.listIterator();
+iterator.next();
+iterator.next();
+iterator.add("Robert");
+iterator.previous();
+iterator.previous();
+iterator.remove();
+System.out.println(myLList);
+What will be printed when this code is executed?
+c) [Mary, Robert, Sue]
+
+42) Which of the following statements about data structures is correct?
+c) Adding and removing already-located elements in the middle of a linked list is efficient.
+
+43) Which of the following statements about sets is correct?
+d) A set is a collection of unique elements organized for efficiency.
+
+46) To create a TreeSet for a class of objects, the object class must ____.
+b) implement the Comparable interface.
+
+47) Which of the following statements about manipulating objects in a set is correct?
+d) A set iterator visits elements in the order in which the set implementation keeps them.
+
+48) Which of the following statements about manipulating objects in a set is correct?
+d) You can remove an element at the position indicated by an iterator.
+
+49) Assume that you have declared a set named mySet to hold String elements. Which of the
+following statements will correctly insert an element into mySet?
+d) mySet.add("apple");
+
+50) Assume that you have declared a set named mySet to hold String elements. Which of the
+following statements will correctly remove an element from mySet?
+b) mySet.remove("apple");
+
+51) Complete the following code snippet, which is intended to determine if a specific value in a
+variable named targetWord appears in a set of String values named mySet:
+for (String aWord : mySet)
+{
+_______________________
+{
+System.out.println ("The word " + targetWord + " was found.");
+}
+)
+c) if (mySet.contains(targetWord))
+
+52) Which of the following statements about manipulating objects in a map is NOT correct?
+a) Use the add method to add a new element to the map.
+
+53) Complete the following code, which is intended to print out all key/value pairs in a map
+named myMap that contains String data for student IDs and names:
+Map<String, String> myMap = new HashMap<String, String>();
+. . .
+_______________________________
+for (String aKey : mapKeySet)
+{
+String name = myMap.get(aKey);
+System.out.println("ID: " + aKey + "->" + name);
+}
+d) Set<String> mapKeySet = myMap.keySet();
+
+54) Complete the following code, which is intended to print out all key/value pairs in a map
+named myMap that contains String data for student IDs and names:
+Map<String, String> myMap = new HashMap<String, String>();
+. . .
+Set<String> mapKeySet = myMap.keySet();
+for (String aKey : mapKeySet)
+{
+___________________________;
+System.out.println("ID: " + aKey + "->" + name);
+}
+a) String name = myMap.get(aKey);
+
+55) Assume that you have declared a map named myMap to hold String elements with Integer
+keys. Which of the following statements will correctly insert an element into myMap?
+b) myMap.put(3, "apple");
+
+56) Assume that you have declared a map named myMap to hold String elements with Integer
+keys. Which of the following statements will correctly remove an element from myMap?
+b) myMap.remove(3);
+
+57) Assume that you have declared a map named myMap to hold String elements with Integer
+keys. Which of the following statements will correctly retrieve the value of an element from
+myMap by using its key?
+c) myMap.get(3);
+
+58) Which of the following statements about manipulating objects in a map is NOT correct?
+Test Bank Questions Chapter 15 © John Wiley & Sons, Inc. All rights reserved. 11
+b) You cannot change the value of an existing association in the map; you must delete it and re-
+add it with the new values.
+
+59) Consider the following code snippet:
+Map<String, Integer> scores;
+If you need to visit the keys in sorted order, which of the following statements will create a
+structure to support this?
+b) scores = new TreeMap<String, Integer>;
+
+60) Consider the following code snippet:
+Map<String, Integer> scores;
+You expect to retrieve elements randomly by key, and want fastest retrieval times. Which of the
+following statements will create a structure to support this?
+a) scores = new HashMap<String, Integer>;
+
+61) You want to enumerate all of the keys in a map named myMap whose keys are type String.
+Which of the following statements will allow you to do this?
+a)
+Set<String> keySet = myMap.keySet();
+for (String key : keySet) {. . . }
+
+62) You need to access values by an integer position. Which collection type should you use?
+c) ArrayList
+
+63) You need to access values in objects by a key that is not part of the object. Which collection
+type should you use?
+a) Map
+
+64) You need to access values in the order in which they were added (first in, first out), and not
+randomly. Which collection type should you use?
+d) Queue
+
+65) You need to access values in the opposite order in which they were added (last in, first out),
+and not randomly. Which collection type should you use?
+c) Stack
+
+66) You need to access values using a key, and the keys must be sorted. Which collection type
+should you use?
+a) TreeMap
+
+67) You need to access values by their position. Which collection type should you use?
+b) ArrayList
+
+68) You have decided to store objects of a class in a TreeSet structure. Which of the following
+statements is correct?
+b) If the object class implements the Comparable interface, and the sort order in the compareTo
+method is acceptable, you do not have to do anything else.
+
+69) Which data structure would best be used for storing a set of numbers and sorting them in
+ascending order?
+d) array

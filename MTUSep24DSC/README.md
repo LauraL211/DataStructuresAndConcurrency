@@ -1,6 +1,8 @@
 # MTUSep24DSC
 # We love finding a hidden gem of Lab 1 within a folder for file handling - Questions to be answered and probably saved in LaurasLabWork Folder 
-# I updated the filename string as it was causing errors since my destination was different to yours
+# I updated the filename string as it was causing errors since my destination was different to yours for FileHandling
+
+# Lab1_Java_Collections_Excercises
 # Q1: I was able to display the linked list of names as normal. I also manipuldated the list by iterating through to add or remove names as desired
 # Q2: I was able to use the two different sets to display the names after using an iterator. 
 #     What was discovered is that the treeset displays the names randomly while the hashset stick to the order they were added in originally.
@@ -11,8 +13,6 @@
 #     displayed in order tho.
 
 # Making an attempt with Lab 2 - Java Collections framework
-#   Got the absolute path for the hamlet.txt file and updated it in file handling.
-
 # ArrayListDriver - I played around with the arraylist using different names. 
 # I tried counting how many names were added into the list as well as finding if my name was present
 
