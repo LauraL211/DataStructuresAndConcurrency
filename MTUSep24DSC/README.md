@@ -7,6 +7,8 @@
 # Q3: I created a new txt file called Crazy which is a funny repetitive saying that my friends get annoyed when i start saying it. I was able to observe the file handling class 
 #     which showed me how to put each word on a new line. I removed the line numbers and space as the question just asked for a word to be displayed each time. After rereading the question
 #     I saw that i needed to put each word into the tree set. This meant creating a tree set for the words to be added into as its iterating through my txt file. I saw the difference of using a tree set over a hash set.
+# Q4: With using my tree set from Q3 i was able to create a tree map. I brought back the line numbers from the file handling class to use in this example. The line numbers are not
+#     displayed in order tho.
 
 # Making an attempt with Lab 2 - Java Collections framework
 #   Got the absolute path for the hamlet.txt file and updated it in file handling.

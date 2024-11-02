@@ -1,6 +1,0 @@
-
-4. Add code to the program you wrote for Q.3 so that a Map is used. The key is the word and the value is the line number.
-If you store just one line number for each word, then the last occurrence of the word will be in the map. E.g. the word “to” is repeated in a few lines.
-To store all the line numbers on which a word occurred, you could use a List or a Set of line numbers – which would be better? Update the code to do this.
-
-Also perform a search on the Map for a key value – what method allows you to search for a word?
