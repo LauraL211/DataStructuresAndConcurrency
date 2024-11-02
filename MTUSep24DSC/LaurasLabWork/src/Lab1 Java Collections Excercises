@@ -1,9 +1,5 @@
 
 
-3. Write a program that reads text from a file and breaks it up into individual words.
-See the source code “filehandling.java” for code to read from a text file, hamlet.txt on the desktop, and break the text into words.
-Put hamlet.txt on the desktop to run this.
-
 Insert the words into a TreeSet. At the end of the input file, print all words, followed by the size of the resulting set. Use an iterator.
 This program determines how many unique words a text file has.
 What happens if you use a HashSet instead of a TreeSet?
