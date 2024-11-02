@@ -36,3 +36,9 @@
 # Then when I tried adding John in above romeo, with the hypothesis that it would be displayed at the end, I was proven wrong.
 # John was displayed on top of Romeo and it's confusing.
 # Fun Update:  "in particular, it does not guarantee that the order will remain constant over time." A hash set does not guarantee order - "https://stackoverflow.com/questions/9345651/ordering-of-elements-in-java-hashset"
+
+# Making an attempt with Lab 4 - Linked Lists
+# The questions were answered in LaurasLabWork in the Lab4 package.
+# I attempted creating a new linked list. Here i tried adding nodes first and removing them. I was able to see how these functions affected my list by displaying it on screen.
+
+#

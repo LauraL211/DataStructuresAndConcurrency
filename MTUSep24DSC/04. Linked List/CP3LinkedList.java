@@ -37,16 +37,18 @@ public class CP3LinkedList<E> {
 
 	public E getFirst() {
 		if (first == null)
-			throw new NoSuchElementException();
-		return first.data;
+		{throw new NoSuchElementException();}
+		else
+			return first.data;
 	}
 
 	public E removeFirst() {
 		if (first == null)
-			throw new NoSuchElementException();
+		{throw new NoSuchElementException();}
+		else {
 		E element = first.data;
 		first = first.next;
-		return element;
+		return element;}
 	}
 
 	public void print(){
@@ -57,4 +59,33 @@ public class CP3LinkedList<E> {
 			current = current.next;
 		}
 	}
-}
+
+		public static void main(String[] args) {
+			CP3LinkedList<String> list = new CP3LinkedList<>();
+
+			// Add elements to the linked list
+			list.addFirst("Jay");
+			list.addFirst("Kay");
+			list.addFirst("Fay");
+			list.addFirst("May");
+			list.addFirst("Ray");
+
+			// Print the contents of the linked list
+			System.out.println("Contents of the linked list:");
+			list.print();
+
+			list.addFirst("Pay");
+			String firstElement = list.getFirst();
+			System.out.println("\nFirst element retrieved using getFirst(): " + firstElement);
+
+			System.out.println("\nContents of the linked list after getFirst():");
+			list.print();
+
+			String removedElement = list.removeFirst();
+			System.out.println("\nRemoved the first element: " + removedElement);
+
+			System.out.println("\nContents of the linked list after removeFirst():");
+			list.print();
+		}
+	}
+
