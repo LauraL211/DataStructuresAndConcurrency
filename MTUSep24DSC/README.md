@@ -42,3 +42,8 @@
 # I attempted creating a new linked list. Here i tried adding nodes first and removing them. I was able to see how these functions affected my list by displaying it on screen.
 
 #
+
+# Lab 8: Profiling
+# With an attempt for my CA1, I created my own random text file to store a lot of random words.
+# I took the absolute path for both my RandomText File as well as the Dictionary of Words since SpellCheck.java had difficulty locating them both
+# I tried changing the ArrayList to use the binarySearch() method... not quite sure if I did it right.

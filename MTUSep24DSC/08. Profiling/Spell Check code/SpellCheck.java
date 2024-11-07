@@ -22,9 +22,8 @@ public class SpellCheck {
            throws FileNotFoundException {
       // Read the dictionary and the document
 
-      Collection<String> dictionaryWords = readDictionary("08. Profiling/Spell Check code/words");
-      //Set<String> documentWords = readWords("alice30.txt");
-      Set<String> documentWords = readWords("08. Profiling/Spell Check code/alice30.txt"); // file to be spell-checked
+      Collection<String> dictionaryWords = readDictionary("C:\\Users\\T00223553\\IdeaProjects\\DataStructuresAndConcurrency\\MTUSep24DSC\\08. Profiling\\Spell Check code\\words");
+      Set<String> documentWords = readWords("C:\\Users\\T00223553\\IdeaProjects\\DataStructuresAndConcurrency\\MTUSep24DSC\\08. Profiling\\Spell Check code\\RandomText");
 
       // Print all words that are in the document but not the dictionary
       int numberMisspeltWords = 0;
@@ -39,13 +38,15 @@ public class SpellCheck {
 
    private static Collection<String> readDictionary(String filename)
            throws FileNotFoundException {
-      Collection<String> words = new LinkedList<String>();
+      List<String> words = new ArrayList<>();
       Scanner in = new Scanner(new File(filename));
       // Use any characters other than a-z or A-Z as delimiters
       in.useDelimiter("[^a-zA-Z]+");
       while (in.hasNext()) {
          words.add(in.next().toLowerCase());
       }
+      int index = Collections.binarySearch(words, "23");
+      System.out.println(index);
       return words;
    }
 
